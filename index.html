@@ -3,8 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>zeki's CPM shop — аккаунты и машины для Car Parking Multiplayer</title>
-<meta name="description" content="Личный магазин Car Parking Multiplayer: новые аккаунты с валютой и готовые машины с винилами. Оплата звёздами Telegram.">
+<title>zeki's shop — Car Parking Multiplayer</title>
+<meta name="description" content="Магазин игровых аккаунтов и товаров. Car Parking Multiplayer: новые аккаунты с валютой и готовые машины с винилами. Оплата звёздами Telegram.">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23ffd400'/%3E%3Ctext x='32' y='47' font-family='Arial Black%2CArial%2Csans-serif' font-weight='900' font-size='42' text-anchor='middle' fill='%23111'%3Ez%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="zeki's shop — Car Parking Multiplayer">
+<meta property="og:description" content="Магазин игровых аккаунтов и товаров. Car Parking Multiplayer: новые аккаунты с валютой и готовые машины с винилами. Оплата звёздами Telegram.">
 <script>document.documentElement.className='js'</script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;700;800&family=Syne:wght@800&display=swap">
 <style>
@@ -29,7 +34,6 @@ h1,h2,h3{margin:0;line-height:1.05;letter-spacing:-.02em}
 .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(var(--line) 1px,transparent 1px) 0 0/100% 90px,linear-gradient(90deg,var(--line) 1px,transparent 1px) 0 0/90px 100%;-webkit-mask-image:linear-gradient(#000,transparent 85%);mask-image:linear-gradient(#000,transparent 85%);opacity:.55;animation:grid 30s linear infinite}
 .hero .wrap{position:relative;padding-top:20px}
 .grid{display:grid;grid-template-columns:1.3fr 1fr;gap:48px;align-items:center;padding-top:34px}
-.tag{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--y);color:var(--y);padding:7px 16px;border-radius:99px;font-weight:500;font-size:14px;margin-bottom:26px}
 h1{font-size:clamp(38px,6.6vw,74px);font-weight:800}
 h1 .l{display:block;opacity:0;transform:translateY(36px);animation:rise .9s cubic-bezier(.2,.8,.2,1) forwards}
 h1 .l+.l{color:var(--y);animation-delay:.14s}
@@ -139,14 +143,14 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
 
 /* tabs + views */
 .view[hidden]{display:none}
-.view.enter{animation:vin .55s cubic-bezier(.2,.8,.2,1)}
+.view.enter,.sub.enter{animation:vin .55s cubic-bezier(.2,.8,.2,1)}
 @keyframes vin{from{opacity:0;transform:translateY(18px)}}
-.tabs{display:grid;grid-template-columns:repeat(4,1fr);width:max-content;max-width:100%;margin:10px auto 0;position:relative;background:var(--s1);border:1px solid var(--line);border-radius:99px;padding:4px;transition:margin .4s}
+.tabs{display:grid;grid-template-columns:repeat(3,1fr);width:max-content;max-width:100%;margin:10px auto 0;position:relative;background:var(--s1);border:1px solid var(--line);border-radius:99px;padding:4px;transition:margin .4s}
 .top.sc .tabs{margin-top:7px}
-.tabs i{position:absolute;top:4px;bottom:4px;left:4px;width:calc((100% - 8px)/4);background:var(--y);border-radius:99px;transition:transform .45s cubic-bezier(.3,1.25,.5,1)}
+.tabs i{position:absolute;top:4px;bottom:4px;left:4px;width:calc((100% - 8px)/3);background:var(--y);border-radius:99px;transition:transform .45s cubic-bezier(.3,1.25,.5,1)}
 .tabs.p i{transform:translateX(100%)}
-.tabs.v i{transform:translateX(200%)}
-.tabs.r i{transform:translateX(300%)}
+.tabs.v i{transform:translateX(100%)}
+.tabs.r i{transform:translateX(200%)}
 .tabs a{position:relative;z-index:1;text-align:center;padding:8px 14px;min-width:84px;font:500 14px Geologica,sans-serif;color:var(--muted);text-decoration:none;transition:color .3s}
 .tabs a:hover{color:var(--ink)}
 .tabs a.on,.tabs a.on:hover{color:var(--on-y);font-weight:700}
@@ -261,19 +265,115 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
 @keyframes bob{50%{transform:translateY(-8px) rotate(6deg)}}
 @media(max-width:480px){.tabs a{padding:8px 8px;min-width:0;font-size:13px}}
 @media(max-width:370px){.tabs a{padding:8px 5px;font-size:12px}}
+
+/* polish */
+*{-webkit-tap-highlight-color:transparent}
+a,button,summary,.tabs,.pc,.c,.rc,.pimg,.chk,.cta,.ghost,.fnav{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;touch-action:manipulation}
+textarea,.msg-sel{-webkit-user-select:text;user-select:text}
+::selection{background:var(--y);color:var(--on-y)}
+html{scrollbar-width:thin;scrollbar-color:#3a3a3a var(--bg)}
+h1,h2,h3{text-wrap:balance}
+p{text-wrap:pretty}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:45;opacity:.045;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url%28%23n%29'/%3E%3C/svg%3E")}
+.c,.pc,.rc{position:relative}
+.c::before,.pc::before,.rc::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .35s;z-index:1;background:radial-gradient(360px circle at var(--mx,50%) var(--my,50%),rgba(255,212,0,.09),transparent 60%)}
+@media(hover:hover){.c:hover::before,.pc:hover::before,.rc:hover::before{opacity:1}}
+.pb,.pz{z-index:2}
+.pimg img{opacity:0;transition:opacity .6s ease,transform .7s cubic-bezier(.2,.8,.2,1)}
+.pimg.big img{transition:opacity .6s ease,transform .4s cubic-bezier(.2,.8,.2,1)}
+.pimg img.ld{opacity:1}
+.pimg:not(.noimg)::after{content:"";position:absolute;left:0;right:0;bottom:0;height:45%;background:linear-gradient(transparent,rgba(10,10,10,.55));pointer-events:none}
+.pimg:not(.noimg):not(.ld)::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.07) 50%,transparent 70%);animation:sh 1.5s linear infinite}
+@keyframes sh{from{transform:translateX(-100%)}to{transform:translateX(100%)}}
+.fnav{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 26px;margin-bottom:32px}
+.fnav a{position:relative;color:var(--muted);text-decoration:none;font-size:14px;font-weight:500;padding:8px 2px;transition:color .25s}
+.fnav a::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:2px;background:var(--y);transform:scaleX(0);transform-origin:0 50%;transition:transform .3s}
+.fnav a:hover{color:var(--ink)}
+.fnav a:hover::after{transform:scaleX(1)}
+@media(pointer:coarse){input[type=range]{margin:20px 0 10px}input[type=range]::-webkit-slider-thumb{width:34px;height:34px}input[type=range]::-moz-range-thumb{width:24px;height:24px}}
+@media(max-width:640px){
+  .hero{padding:128px 0 56px}
+  .phero{padding-bottom:44px}
+  .grid{gap:32px;padding-top:20px}
+  .kit,.panel{padding:20px}
+  .tabs a{padding:10px 8px}
+  textarea{font-size:16px}
+  .pbody{padding:18px}
+  .final{padding:44px 20px;border-radius:22px;margin-top:72px}
+  .modal{place-items:end stretch;padding:0}
+  .mbox,.mbox.wide{max-width:none;border-radius:24px 24px 0 0;border-bottom:0;max-height:92vh;max-height:92dvh;padding:22px 18px calc(24px + env(safe-area-inset-bottom,0px));transform:translateY(60px)}
+  .mbox.wide{padding:16px 16px calc(24px + env(safe-area-inset-bottom,0px))}
+  .modal.on .mbox,.modal.on .mbox.wide{transform:none}
+}
+@media(hover:none){
+  .cta:hover{transform:none;box-shadow:none}
+  .cta:hover::after{left:-60%}
+  .c:hover,.rc:hover{transform:none;border-color:var(--line);background:var(--s1)}
+  .pc:hover{transform:none;border-color:var(--line);box-shadow:none}
+  .pc:hover .pimg img{transform:none}
+  .pc:hover .pz{background:rgba(10,10,10,.72);color:var(--ink);border-color:var(--line)}
+  .rpage .rules li:hover{transform:none;border-color:var(--line)}
+  .ghost:hover{border-color:var(--line);color:var(--ink)}
+  .pdx:hover{background:var(--bg);color:var(--ink);transform:none}
+  .cta:active{transform:scale(.96)}
+}
+
+/* game section + cursor */
+.game{position:relative;padding-top:124px}
+.game .hero{padding-top:28px}
+.gbg{position:absolute;left:0;right:0;top:0;height:min(900px,110vh);overflow:hidden;pointer-events:none;z-index:0;-webkit-mask-image:linear-gradient(#000 50%,transparent);mask-image:linear-gradient(#000 50%,transparent)}
+.gbg img{position:absolute;right:5%;top:130px;width:min(640px,64vw);max-width:none;height:auto;opacity:0;transition:opacity 1.4s ease}
+.gbg img.ld{opacity:.22}
+.gbar{position:relative;z-index:2;display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.game .sub{position:relative;z-index:1}
+.gname{font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.01em;line-height:1.1}
+.gname small{display:block;color:var(--muted);font-weight:500;font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px}
+.stabs{display:grid;grid-template-columns:1fr 1fr;position:relative;background:var(--s1);border:1px solid var(--line);border-radius:99px;padding:4px}
+.stabs i{position:absolute;top:4px;bottom:4px;left:4px;width:calc((100% - 8px)/2);background:var(--y);border-radius:99px;transition:transform .45s cubic-bezier(.3,1.25,.5,1)}
+.stabs.p i{transform:translateX(100%)}
+.stabs a{position:relative;z-index:1;text-align:center;padding:9px 22px;min-width:112px;font:500 14px Geologica,sans-serif;color:var(--muted);text-decoration:none;transition:color .3s}
+.stabs a:hover{color:var(--ink)}
+.stabs a.on,.stabs a.on:hover{color:var(--on-y);font-weight:700}
+html.cc,html.cc *{cursor:none!important}
+html.cc.cc-native,html.cc.cc-native *{cursor:auto!important}
+html.cc-native #cur{opacity:0!important}
+#cur{position:fixed;left:0;top:0;width:0;height:0;pointer-events:none;z-index:2000;opacity:0;transition:opacity .25s}
+#cur.on{opacity:1}
+#cur i{position:absolute;left:0;top:0;border-radius:50%;will-change:transform}
+#cur .cd{width:8px;height:8px;margin:-4px 0 0 -4px;background:var(--y);transition:opacity .2s,background .2s}
+#cur .cr{width:38px;height:38px;margin:-19px 0 0 -19px;border:1.5px solid var(--y);display:grid;place-items:center;font:700 11px Geologica,sans-serif;letter-spacing:.04em;color:var(--on-y);transition:width .3s cubic-bezier(.2,.8,.2,1),height .3s cubic-bezier(.2,.8,.2,1),margin .3s cubic-bezier(.2,.8,.2,1),background .3s,border-color .2s}
+#cur.hv .cr{width:58px;height:58px;margin:-29px 0 0 -29px;background:rgba(255,212,0,.14)}
+#cur.hv .cd{opacity:0}
+#cur.lb .cr{width:78px;height:78px;margin:-39px 0 0 -39px;background:var(--y)}
+#cur.lb .cd{opacity:0}
+#cur.dn .cr{width:26px;height:26px;margin:-13px 0 0 -13px}
+#cur.dk .cd{background:#111}
+#cur.dk .cr{border-color:#111;background:rgba(0,0,0,.08)}
+@media(max-width:640px){
+  .game{padding-top:124px}
+  .gbar{flex-direction:column;align-items:stretch;gap:14px}
+  .stabs{width:100%}
+  .gbg img{right:auto;left:50%;transform:translateX(-50%);top:120px;width:min(380px,90vw)}
+  .gbg img.ld{opacity:.14}
+}
 </style>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="star" viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.2 6.8.8-5 4.7 1.3 6.7L12 17.5l-6 3.4 1.3-6.7-5-4.7 6.8-.8z" fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol></svg>
-<div class="top" id="top"><div class="brand" aria-label="zeki's CPM shop">zeki's CPM shop</div><nav class="tabs" id="tabs" aria-label="Разделы"><i></i><a href="#accounts" id="t-a" data-v="accounts" class="on" aria-current="page">Аккаунты</a><a href="#products" id="t-p" data-v="products">Товары</a><a href="#reviews" id="t-v" data-v="reviews">Отзывы</a><a href="#rules" id="t-r" data-v="rules">Правила</a></nav><div id="bar"></div></div>
-<div class="view" id="v-accounts">
+<div class="top" id="top"><div class="brand" aria-label="zeki's shop">zeki's shop</div><nav class="tabs" id="tabs" aria-label="Разделы"><i></i><a href="#accounts" id="t-g" data-v="game" class="on" aria-current="page">Car Parking</a><a href="#reviews" id="t-v" data-v="reviews">Отзывы</a><a href="#rules" id="t-r" data-v="rules">Правила</a></nav><div id="bar"></div></div>
+<div class="view game" id="v-game">
+  <div class="gbg" aria-hidden="true"><img src="cpm-logo.png" alt="" onload="this.classList.add('ld')" onerror="this.remove()"></div>
+  <div class="wrap gbar">
+    <div class="gname"><small>Игра</small>Car Parking Multiplayer</div>
+    <nav class="stabs" id="stabs" aria-label="Разделы игры"><i></i><a href="#accounts" id="s-a" data-v="accounts" class="on" aria-current="page">Аккаунты</a><a href="#products" id="s-p" data-v="products">Товары</a></nav>
+  </div>
+<div class="sub" id="g-accounts">
 <header class="hero">
   <div class="wrap">
     <div class="grid">
       <div>
-        <div class="tag">В комплекте: случайная машина с винилом бесплатно</div>
         <h1><span class="l">Купи аккаунт дёшево.</span><span class="l">Начни не с нуля.</span></h1>
-        <p class="lead">Пока другие неделями копят на первую тачку, ты уже за рулём. Готовый аккаунт Car Parking Multiplayer: <b>1 500 000$</b>, <b>1 000 монет</b> и <b>машина с винилом в подарок</b>. Всего от 15 <svg class="st" aria-hidden="true"><use href="#star"/></svg>.</p>
+        <p class="lead">Пока другие неделями копят на первую тачку, ты уже за рулём. Готовый аккаунт Car Parking Multiplayer: <b>1&nbsp;500&nbsp;000$</b>, <b>1&nbsp;000&nbsp;монет</b> и <b>машина с винилом в подарок</b>. Всего от 15 <svg class="st" aria-hidden="true"><use href="#star"/></svg>.</p>
         <a class="cta" href="#buy">Собрать свой аккаунт</a>
       </div>
       <aside class="kit" aria-label="Что входит в комплект">
@@ -294,27 +394,27 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
     <div class="panel rv" style="--d:.14s">
       <div>
         <div class="ctl">
-          <div class="row"><b id="mv">1 500 000$</b><span id="mx"></span></div>
+          <div class="row"><b id="mv">1&nbsp;500&nbsp;000$</b><span id="mx"></span></div>
           <input type="range" id="rm" min="0" max="10" step="1" value="0" aria-label="Количество денег">
           <div class="scale"><span>1,5 млн</span><span>4 млн</span></div>
         </div>
         <div class="ctl">
-          <div class="row"><b id="cv">1 000 монет</b><span id="cx"></span></div>
+          <div class="row"><b id="cv">1&nbsp;000&nbsp;монет</b><span id="cx"></span></div>
           <input type="range" id="rc" min="0" max="10" step="1" value="0" aria-label="Количество коинов">
           <div class="scale"><span>1 000</span><span>3 500</span></div>
         </div>
         <div class="note"><b>Подарок:</b> случайная машина с винилом входит в любой комплект бесплатно. Улучшение: +250 000$ или +250 монет за 5 <svg class="st" aria-hidden="true"><use href="#star"/></svg>.</div>
       </div>
       <div class="bill">
-        <div class="line"><span>Аккаунт (1 500 000$ и 1 000 монет)</span><b>15 <svg class="st" aria-hidden="true"><use href="#star"/></svg></b></div>
+        <div class="line"><span>Аккаунт (1&nbsp;500&nbsp;000$ и 1&nbsp;000&nbsp;монет)</span><b>15 <svg class="st" aria-hidden="true"><use href="#star"/></svg></b></div>
         <div class="line"><span>Больше денег</span><b id="bm">0 <svg class="st" aria-hidden="true"><use href="#star"/></svg></b></div>
         <div class="line"><span>Больше коинов</span><b id="bc">0 <svg class="st" aria-hidden="true"><use href="#star"/></svg></b></div>
         <div class="line"><span>Случайная машина с винилом</span><b>в подарок</b></div>
         <div class="total"><span>К оплате</span><span class="big" id="tot">15 <svg class="st" aria-hidden="true"><use href="#star"/></svg></span></div>
         <div class="lbl">Сообщение для продавца (создаётся автоматически)</div>
         <textarea id="msg" readonly aria-label="Сообщение для продавца"></textarea>
-        <a class="cta buy" id="tg" href="https://t.me/ItzZeki" target="_blank" rel="noopener noreferrer">Купить аккаунт</a>
-        <p class="fine">Нажав кнопку, ты перейдёшь в Telegram, в личные сообщения владельца @ItzZeki. Готовое сообщение с твоими параметрами уже будет вписано в поле ввода: останется только отправить его и оплатить звёздами. Перед покупкой нужно подтвердить, что ты прочитал правила магазина.</p>
+        <a class="cta buy" id="tg" href="https://t.me/zekimanager" target="_blank" rel="noopener noreferrer">Купить аккаунт</a>
+        <p class="fine">Нажав кнопку, ты перейдёшь в Telegram, в личные сообщения владельца @zekimanager. Готовое сообщение с твоими параметрами уже будет вписано в поле ввода: останется только отправить его и оплатить звёздами. Перед покупкой нужно подтвердить, что ты прочитал правила магазина.</p>
         <button class="ghost" id="cp" type="button">Скопировать сообщение</button>
         <div id="st" role="status"></div>
       </div>
@@ -335,7 +435,7 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
     <h2 class="s rv">Как купить за минуту</h2>
     <div class="cards" style="margin-top:28px">
       <div class="c rv"><div class="n">1</div><h3>Выбери</h3><p>Передвинь ползунки: деньги и монеты. Всё считается на лету.</p></div>
-      <div class="c rv" style="--d:.1s"><div class="n">2</div><h3>Нажми «Купить аккаунт»</h3><p>Откроется чат с @ItzZeki, а сообщение уже будет написано.</p></div>
+      <div class="c rv" style="--d:.1s"><div class="n">2</div><h3>Нажми «Купить аккаунт»</h3><p>Откроется чат с @zekimanager, а сообщение уже будет написано.</p></div>
       <div class="c rv" style="--d:.2s"><div class="n">3</div><h3>Оплати и играй</h3><p>Оплати звёздами, получи логин и пароль, смени пароль и езжай.</p></div>
     </div>
   </section>
@@ -343,7 +443,7 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
   <section>
     <h2 class="s rv">Вопросы</h2>
     <div class="rv"><details><summary>Какая машина с винилом мне достанется?</summary><p>Случайная: модель и винил выпадают случайно, выбрать заранее нельзя. Зато она бесплатно входит в любой комплект.</p></details>
-    <details><summary>Что, если сообщение не появилось в Telegram?</summary><p>Нажми «Скопировать сообщение» и вставь его в чат с @ItzZeki вручную.</p></details>
+    <details><summary>Что, если сообщение не появилось в Telegram?</summary><p>Нажми «Скопировать сообщение» и вставь его в чат с @zekimanager вручную.</p></details>
     <details><summary>Как оплатить звёздами?</summary><p>После твоего сообщения владелец подскажет, как отправить звёзды в Telegram.</p></details>
     <details><summary>Есть ли риски?</summary><p>Правила игры не разрешают продажу и передачу аккаунтов, поэтому разработчик может ограничить такой аккаунт. Покупая, ты принимаешь этот риск.</p></details></div>
   </section>
@@ -356,24 +456,24 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
 </main>
 </div>
 
-<div class="view" id="v-products" hidden>
+<div class="sub" id="g-products" hidden>
   <header class="hero phero">
     <div class="wrap">
-      <div class="tag">Готовые машины с винилами</div>
       <h1><span class="l">Выбирай машину.</span><span class="l">Забирай в гараж.</span></h1>
       <p class="lead">Каждая машина уже собрана: <b>полный донат</b>, эффектный винил и мощный мотор. Выбери карточку, нажми «Купить», и сообщение владельцу будет готово.</p>
     </div>
   </header>
   <main class="wrap">
     <div class="plist" id="plist"></div>
-    <p class="fine" style="margin-top:22px">Нажав «Купить», ты перейдёшь в Telegram, в личные сообщения владельца @ItzZeki. Сообщение с названием товара уже будет вписано в поле ввода. Перед покупкой нужно подтвердить, что ты прочитал правила магазина.</p>
+    <p class="fine" style="margin-top:22px">Нажав «Купить», ты перейдёшь в Telegram, в личные сообщения владельца @zekimanager. Сообщение с названием товара уже будет вписано в поле ввода. Перед покупкой нужно подтвердить, что ты прочитал правила магазина.</p>
   </main>
+</div>
+
 </div>
 
 <div class="view" id="v-reviews" hidden>
   <header class="hero phero">
     <div class="wrap">
-      <div class="tag">Отзывы покупателей</div>
       <h1><span class="l">Что говорят</span><span class="l">покупатели.</span></h1>
       <p class="lead">Здесь собраны отзывы тех, кто уже купил аккаунт или машину.</p>
     </div>
@@ -385,7 +485,7 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
       <svg class="est" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5l2.9 6.2 6.8.8-5 4.7 1.3 6.7L12 17.5l-6 3.4 1.3-6.7-5-4.7 6.8-.8z"/></svg>
       <h2>Отзывов пока нет</h2>
       <p>Первые отзывы появятся здесь после покупок. Купил что-то и хочешь поделиться? Напиши владельцу в Telegram.</p>
-      <a class="ghost" id="rwrite" href="https://t.me/ItzZeki" target="_blank" rel="noopener noreferrer">Оставить отзыв</a>
+      <a class="ghost" id="rwrite" href="https://t.me/zekimanager" target="_blank" rel="noopener noreferrer">Оставить отзыв</a>
     </div>
   </main>
 </div>
@@ -393,7 +493,6 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
 <div class="view" id="v-rules" hidden>
   <header class="hero phero">
     <div class="wrap">
-      <div class="tag">Важно перед покупкой</div>
       <h1><span class="l">Правила</span><span class="l">магазина.</span></h1>
       <p class="lead">Прочитай внимательно: покупая у меня, ты принимаешь все пункты ниже. Перед переходом к покупке сайт попросит подтвердить, что ты с ними ознакомился.</p>
     </div>
@@ -420,20 +519,21 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
 
 <div class="wrap">
   <footer>
+    <nav class="fnav" aria-label="Разделы сайта"><a href="#accounts" data-v="accounts">Аккаунты</a><a href="#products" data-v="products">Товары</a><a href="#reviews" data-v="reviews">Отзывы</a><a href="#rules" data-v="rules">Правила</a></nav>
     <div class="credit" role="img" aria-label="Сделано вместе с Claude, vibin x Claude">
       <span class="vibin" id="vibin" aria-hidden="true">vibin</span>
       <span class="x" aria-hidden="true">×</span>
       <span class="cl" aria-hidden="true"><svg class="cm" viewBox="0 0 24 24"><g stroke="#d97757" stroke-width="2.7" stroke-linecap="round"><line x1="12" y1="12" x2="12" y2="2.2" transform="rotate(0 12 12)"/><line x1="12" y1="12" x2="12" y2="3.6" transform="rotate(30 12 12)"/><line x1="12" y1="12" x2="12" y2="2.6" transform="rotate(60 12 12)"/><line x1="12" y1="12" x2="12" y2="3.2" transform="rotate(90 12 12)"/><line x1="12" y1="12" x2="12" y2="2.0" transform="rotate(120 12 12)"/><line x1="12" y1="12" x2="12" y2="3.8" transform="rotate(150 12 12)"/><line x1="12" y1="12" x2="12" y2="2.4" transform="rotate(180 12 12)"/><line x1="12" y1="12" x2="12" y2="3.4" transform="rotate(210 12 12)"/><line x1="12" y1="12" x2="12" y2="2.2" transform="rotate(240 12 12)"/><line x1="12" y1="12" x2="12" y2="3.6" transform="rotate(270 12 12)"/><line x1="12" y1="12" x2="12" y2="2.8" transform="rotate(300 12 12)"/><line x1="12" y1="12" x2="12" y2="3.2" transform="rotate(330 12 12)"/></g></svg>Claude</span>
     </div>
-    <a class="ghost dm" href="https://t.me/ItzZeki" target="_blank" rel="noopener noreferrer" aria-label="Написать владельцу в Telegram: @ItzZeki"><svg class="tgi" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.4" fill="#fff"/><path fill="#29a9eb" d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg><b>@ItzZeki</b></a>
-    <p style="margin:0">© zeki's CPM shop. Независимый магазин, не связан с Olzhass и разработчиками Car Parking Multiplayer.</p>
+    <a class="ghost dm" href="https://t.me/zekishop" target="_blank" rel="noopener noreferrer" aria-label="Telegram-канал магазина: @zekishop"><svg class="tgi" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.4" fill="#fff"/><path fill="#29a9eb" d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg><b>@zekishop</b></a>
+    <p style="margin:0">© zeki's shop. Независимый магазин, не связан с Olzhass и разработчиками Car Parking Multiplayer.</p>
   </footer>
 </div>
 
 <script>
 (function(){
   var $=function(i){return document.getElementById(i)};
-  var rm=$('rm'),rc=$('rc'),USER='ItzZeki';
+  var rm=$('rm'),rc=$('rc'),USER='zekimanager';
   var STAR='<svg class="st" aria-hidden="true"><use href="#star"/></svg>';
   var reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
   function n(x){return String(x).replace(/\B(?=(\d{3})+(?!\d))/g,'\u00A0')}
@@ -490,17 +590,19 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
   ];
   var CARICON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 15v-3l2-5h14l2 5v3zM3 15v3M21 15v3M6 12h12"/></svg>';
   function tgl(text){return 'https://t.me/'+USER+'?text='+encodeURIComponent(text)}
+  function ldFix(root){[].forEach.call(root.querySelectorAll('.pimg img'),function(i){if(i.complete&&i.naturalWidth){i.classList.add('ld');i.parentNode.classList.add('ld')}})}
   function pmsg(p){return 'Привет! Хотел бы купить у тебя машину в CPM: '+p.title+' с винилом '+p.vinyl+' (полный донат, '+p.hp+' HP, '+p.nm+' NM).'+(p.price?' Оплачу звёздами: '+p.price+' ⭐.':'')}
   var ZOOMI='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4M11 8v6M8 11h6"/></svg>';
   function card(p,i){
     var msg=pmsg(p);
-    return '<article class="pc rv" data-i="'+i+'" style="--d:'+(i*.1)+'s"><div class="pimg" role="button" tabindex="0" aria-label="Открыть подробности: '+p.title+'"><img src="'+p.img+'" alt="'+p.title+' с виниловым покрытием: '+p.vinyl+'" loading="lazy" onerror="this.parentNode.classList.add(\'noimg\');this.remove()"><span class="pb">Полный донат</span><div class="ph">'+CARICON+'<span>'+p.img+'</span></div><span class="pz">'+ZOOMI+' Подробнее</span></div>'
+    return '<article class="pc rv" data-i="'+i+'" style="--d:'+(i*.1)+'s"><div class="pimg" role="button" tabindex="0" aria-label="Открыть подробности: '+p.title+'"><img src="'+p.img+'" alt="'+p.title+' с виниловым покрытием: '+p.vinyl+'" loading="lazy" onload="this.classList.add(\'ld\');this.parentNode.classList.add(\'ld\')" onerror="this.parentNode.classList.add(\'noimg\');this.remove()"><span class="pb">Полный донат</span><div class="ph">'+CARICON+'<span>'+p.img+'</span></div><span class="pz">'+ZOOMI+' Подробнее</span></div>'
       +'<div class="pbody"><h3>'+p.title+'</h3><div class="pv">Винил: '+p.vinyl+'</div><p>'+p.desc+'</p>'
       +'<div class="pst"><div><b>'+n(p.hp)+'</b><small>HP</small></div><div><b>'+n(p.nm)+'</b><small>NM</small></div></div>'
       +'<div class="chips">'+p.donate.map(function(d){return '<span>'+d+'</span>'}).join('')+'</div>'
       +'<div class="pfoot"><div class="pp">'+(p.price?p.price+' '+STAR:'Цена в ЛС')+'<small>'+(p.price?'звёздами Telegram':'уточни у владельца')+'</small></div><a class="cta pbuy" href="'+tgl(msg)+'" target="_blank" rel="noopener noreferrer">Купить</a></div></div></article>';
   }
   $('plist').innerHTML=PRODUCTS.map(card).join('')+'<article class="pc ask rv" style="--d:'+(PRODUCTS.length*.1)+'s"><h3>Не нашёл нужное?</h3><p>Напиши в личку и спроси, что ещё есть в наличии.</p><a class="ghost" href="'+tgl('Привет! Хотел узнать, что ещё есть в наличии в CPM.')+'" target="_blank" rel="noopener noreferrer">Спросить в Telegram</a></article>';
+  ldFix($('plist'));
   $('plist').addEventListener('click',function(e){var b=e.target.closest('.pbuy');if(b){var c=ctr(e,b);burst(c[0],c[1])}});
 
   /* ===== ПРАВИЛА: список один, показывается и на странице, и в окне подтверждения ===== */
@@ -564,7 +666,7 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
   var pd=$('pd'),pdc=$('pdc'),pdLast=null;
   function row(k,v){return '<div><dt>'+k+'</dt><dd>'+v+'</dd></div>'}
   function detail(p){
-    return '<div class="pdg"><div class="pimg big"><img src="'+p.img+'" alt="'+p.title+' с виниловым покрытием: '+p.vinyl+'" onerror="this.parentNode.classList.add(\'noimg\');this.remove()"><span class="pb">Полный донат</span><div class="ph">'+CARICON+'<span>'+p.img+'</span></div></div>'
+    return '<div class="pdg"><div class="pimg big"><img src="'+p.img+'" alt="'+p.title+' с виниловым покрытием: '+p.vinyl+'" onload="this.classList.add(\'ld\');this.parentNode.classList.add(\'ld\')" onerror="this.parentNode.classList.add(\'noimg\');this.remove()"><span class="pb">Полный донат</span><div class="ph">'+CARICON+'<span>'+p.img+'</span></div></div>'
       +'<div class="pdi"><h2 id="pdt">'+p.title+'</h2><div class="pv">Винил: '+p.vinyl+'</div><p>'+p.desc+'</p>'
       +'<dl class="spec">'+row('Модель',p.title)+row('Винил',p.vinyl)+row('Мощность',n(p.hp)+' HP')+row('Крутящий момент',n(p.nm)+' NM')+row('Донат','Полный')+'</dl>'
       +'<ul class="checks">'+p.donate.map(function(d){return '<li>'+d+'</li>'}).join('')+'</ul>'
@@ -572,7 +674,7 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
   }
   function openDetail(i,trigger){
     var p=PRODUCTS[i];if(!p||!pd.hidden)return;
-    pdLast=trigger;pdc.innerHTML=detail(p);
+    pdLast=trigger;pdc.innerHTML=detail(p);ldFix(pdc);
     pd.hidden=false;void pd.offsetWidth;pd.classList.add('on');lockScroll();
     pd.firstElementChild.scrollTop=0;$('pdx').focus({preventScroll:true});
   }
@@ -619,7 +721,7 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
   function esc(t){return String(t).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
   function starsRow(k){var o='';for(var i=1;i<=5;i++)o+='<svg class="st'+(i>k?' off':'')+'" aria-hidden="true"><use href="#star"/></svg>';return '<div class="stars" role="img" aria-label="Оценка '+k+' из 5">'+o+'</div>'}
   (function(){
-    var rw=$('rwrite');rw.href=tgl('Привет! Хочу оставить отзыв о магазине zeki\'s CPM shop.');
+    var rw=$('rwrite');rw.href=tgl('Привет! Хочу оставить отзыв о магазине zeki\'s shop.');
     if(!REVIEWS.length)return;
     $('rempty').hidden=true;
     var avg=REVIEWS.reduce(function(a,r){return a+(+r.rating||5)},0)/REVIEWS.length;
@@ -631,27 +733,44 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
   })();
 
   /* ===== разделы Аккаунты / Товары / Отзывы / Правила ===== */
-  var VIEWS={accounts:$('v-accounts'),products:$('v-products'),reviews:$('v-reviews'),rules:$('v-rules')},TABS={accounts:$('t-a'),products:$('t-p'),reviews:$('t-v'),rules:$('t-r')},CLS={accounts:'',products:'p',reviews:'v',rules:'r'},tabs=$('tabs'),cur='';
+  var VIEWS={game:$('v-game'),reviews:$('v-reviews'),rules:$('v-rules')},SUBS={accounts:$('g-accounts'),products:$('g-products')},TABS={game:$('t-g'),reviews:$('t-v'),rules:$('t-r')},CLS={game:'',reviews:'v',rules:'r'},KNOWN={game:1,accounts:1,products:1,reviews:1,rules:1},tabs=$('tabs'),stabs=$('stabs'),cur='',lastSub='accounts';
+  var TITLES={accounts:"Car Parking: аккаунты — zeki's shop",products:"Car Parking: товары — zeki's shop",reviews:"Отзывы — zeki's shop",rules:"Правила — zeki's shop"};
   function show(v,first){
+    if(v==='game')v=lastSub;
+    var top=(v==='accounts'||v==='products')?'game':v;
+    if(top==='game')lastSub=v;
     if(v===cur){window.scrollTo({top:0,behavior:'smooth'});return}
-    cur=v;
-    Object.keys(VIEWS).forEach(function(k){VIEWS[k].hidden=k!==v;TABS[k].classList.toggle('on',k===v);TABS[k].setAttribute('aria-current',k===v?'page':'false')});
-    tabs.className='tabs '+CLS[v];
-    var vv=VIEWS[v];vv.classList.remove('enter');void vv.offsetWidth;if(!reduce&&!first)vv.classList.add('enter');
+    cur=v;document.title=TITLES[v];
+    Object.keys(VIEWS).forEach(function(k){VIEWS[k].hidden=k!==top;TABS[k].classList.toggle('on',k===top);TABS[k].setAttribute('aria-current',k===top?'page':'false')});
+    SUBS.accounts.hidden=v!=='accounts';SUBS.products.hidden=v!=='products';
+    stabs.className='stabs'+(v==='products'?' p':'');
+    $('s-a').classList.toggle('on',v==='accounts');$('s-p').classList.toggle('on',v==='products');
+    $('s-a').setAttribute('aria-current',v==='accounts'?'page':'false');$('s-p').setAttribute('aria-current',v==='products'?'page':'false');
+    tabs.className='tabs '+CLS[top];
+    var vv=top==='game'?SUBS[v]:VIEWS[top];vv.classList.remove('enter');void vv.offsetWidth;if(!reduce&&!first)vv.classList.add('enter');
     if(!first)window.scrollTo({top:0,behavior:'instant'});
   }
   /* переключение по клику работает без хэша (в т.ч. во встроенных превью); хэш лишь запоминает раздел */
-  tabs.addEventListener('click',function(e){
-    var a=e.target.closest('a');if(!a)return;
+  document.addEventListener('click',function(e){
+    var a=e.target.closest&&e.target.closest('a[data-v]');if(!a||!KNOWN[a.dataset.v])return;
     e.preventDefault();show(a.dataset.v);
-    try{history.replaceState(null,'','#'+a.dataset.v)}catch(err){}
+    try{history.replaceState(null,'','#'+cur)}catch(err){}
   });
   document.addEventListener('click',function(e){
     var a=e.target.closest&&e.target.closest('a[href="#buy"]');if(!a)return;
     e.preventDefault();var t=$('buy');if(t)t.scrollIntoView({behavior:reduce?'auto':'smooth'});
   });
-  addEventListener('hashchange',function(){var h=location.hash.slice(1);if(VIEWS[h])show(h)});
-  var h0=location.hash.slice(1);show(VIEWS[h0]?h0:'accounts',true);
+  addEventListener('hashchange',function(){var h=location.hash.slice(1);if(KNOWN[h])show(h)});
+  var h0=location.hash.slice(1);show(KNOWN[h0]&&h0!=='game'?h0:'accounts',true);
+
+  /* мягкая подсветка карточек за курсором */
+  if(window.matchMedia('(hover:hover)').matches){
+    document.addEventListener('pointermove',function(e){
+      if(e.pointerType!=='mouse')return;
+      var c=e.target.closest&&e.target.closest('.c,.pc,.rc');if(!c)return;
+      var r=c.getBoundingClientRect();c.style.setProperty('--mx',(e.clientX-r.left)+'px');c.style.setProperty('--my',(e.clientY-r.top)+'px');
+    });
+  }
 
   build();
 
@@ -660,7 +779,8 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
 
   /* полоска прокрутки */
   var bar=$('bar'),tick=false;
-  function prog(){$('top').classList.toggle('sc',scrollY>24);var h=document.documentElement.scrollHeight-innerHeight;bar.style.transform='scaleX('+(h>0?Math.min(scrollY/h,1):0)+')';tick=false}
+  var gbgImg=document.querySelector('.gbg img');if(gbgImg&&gbgImg.complete&&gbgImg.naturalWidth)gbgImg.classList.add('ld');
+  function prog(){$('top').classList.toggle('sc',scrollY>24);if(gbgImg&&gbgImg.parentNode&&!reduce)gbgImg.style.translate='0 '+Math.min(scrollY*.2,260)+'px';var h=document.documentElement.scrollHeight-innerHeight;bar.style.transform='scaleX('+(h>0?Math.min(scrollY/h,1):0)+')';tick=false}
   addEventListener('scroll',function(){if(!tick){tick=true;requestAnimationFrame(prog)}},{passive:true});prog();
 
   /* появление блоков при прокрутке */
@@ -676,6 +796,49 @@ footer{margin-top:72px;padding:40px 0 48px;border-top:1px solid var(--line);colo
     function step(ts){t0=t0||ts;var p=Math.min((ts-t0)/1400,1),e=1-Math.pow(1-p,3);el.textContent=n(Math.round(end*e));if(p<1)requestAnimationFrame(step)}
     requestAnimationFrame(step);
   })}
+})();
+</script>
+<script>
+/* собственный курсор: только для мыши/тачпада */
+(function(){
+  if(!window.matchMedia('(hover:hover) and (pointer:fine)').matches)return;
+  var reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches,root=document.documentElement;
+  var cur=document.createElement('div');cur.id='cur';cur.setAttribute('aria-hidden','true');cur.innerHTML='<i class="cr"></i><i class="cd"></i>';document.body.appendChild(cur);
+  var cd=cur.querySelector('.cd'),cr=cur.querySelector('.cr');
+  var x=-100,y=-100,rx=-100,ry=-100,run=false,seen=false;
+  function frame(){
+    rx+=(x-rx)*(reduce?1:.2);ry+=(y-ry)*(reduce?1:.2);
+    cd.style.transform='translate3d('+x+'px,'+y+'px,0)';cr.style.transform='translate3d('+rx+'px,'+ry+'px,0)';
+    if(Math.abs(x-rx)>.1||Math.abs(y-ry)>.1)requestAnimationFrame(frame);else run=false;
+  }
+  function onY(t){
+    if(t.closest('.final .cta,.pdx'))return false;
+    return !!t.closest('.cta,.final,.tabs a.on,.stabs a.on,.pb,.it.free .ic');
+  }
+  function state(t){
+    if(!t||!t.closest)return;
+    var lab='',hv=false,im=t.closest('.pimg.big:not(.noimg)');
+    root.classList.toggle('cc-native',!!t.closest('textarea'));
+    if(im)lab=im.classList.contains('zoom')?'Назад':'Зум';
+    else if(t.closest('.pc .pimg'))lab='Смотреть';
+    else hv=!!t.closest('a,button,summary,label,.pc,input,[role=button]');
+    cur.classList.toggle('lb',!!lab);cur.classList.toggle('hv',hv);
+    cur.classList.toggle('dk',!lab&&onY(t));
+    if(cr.textContent!==lab)cr.textContent=lab;
+  }
+  document.addEventListener('pointermove',function(e){
+    if(e.pointerType==='touch')return;
+    x=e.clientX;y=e.clientY;
+    if(!seen){seen=true;rx=x;ry=y;root.classList.add('cc')}
+    cur.classList.add('on');
+    if(!run){run=true;requestAnimationFrame(frame)}
+  },{passive:true});
+  document.addEventListener('pointerover',function(e){if(e.pointerType!=='touch')state(e.target)});
+  document.addEventListener('pointerdown',function(e){if(e.pointerType!=='touch')cur.classList.add('dn')});
+  document.addEventListener('pointerup',function(){cur.classList.remove('dn')});
+  document.addEventListener('click',function(e){setTimeout(function(){state(document.elementFromPoint(e.clientX,e.clientY))},30)});
+  document.documentElement.addEventListener('mouseleave',function(){cur.classList.remove('on')});
+  document.documentElement.addEventListener('mouseenter',function(){if(seen)cur.classList.add('on')});
 })();
 </script>
 </body>
